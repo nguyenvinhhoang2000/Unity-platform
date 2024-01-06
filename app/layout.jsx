@@ -1,5 +1,6 @@
 import React from "react";
 import { Inter } from "next/font/google";
+import PropTypes from "prop-types";
 
 import "@/public/styles/css/resets.css";
 import "@/public/styles/css/globals.css";
@@ -19,3 +20,7 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+RootLayout.propTypes = {
+  children: PropTypes.node.isRequired,
+};
