@@ -13,6 +13,7 @@
     "lint:fix:all": "yarn lint:fix && yarn lint-style:fix"
   },
   "dependencies": {
+    "classnames": "^2.5.1",
     "framer-motion": "^10.17.9",
     "gsap": "^3.12.4",
     "locomotive-scroll": "^4.1.4",

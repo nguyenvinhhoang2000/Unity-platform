@@ -53,15 +53,13 @@ module.exports = {
       },
       transparent: "transparent",
       current: "currentColor",
-      dark: {
-        main: "#1B1D21",
+      neutral: {
+        main: "rgba(27, 29, 33, 1)",
         deactive: "#808191",
         neutral: "#F0F3F6",
-      },
-      heading: {
-        default: "#343a40",
-        disabled: "#343a4040",
-        "o-70": "#343a40b3",
+        "o-70": "rgba(27, 29, 33, 0.7)",
+        "o-50": "rgba(27, 29, 33, 0.5)",
+        "o-20": "rgba(27, 29, 33, 0.2)",
       },
       white: {
         main: "#ffffff",
@@ -186,6 +184,9 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      boxShadow: {
+        navigation: "0px 0px 63.436px 0px rgba(0, 0, 0, 0.07)",
       },
     },
   },
