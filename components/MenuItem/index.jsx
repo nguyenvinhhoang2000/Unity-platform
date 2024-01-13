@@ -27,7 +27,7 @@ function MenuItem({
     >
       {icon && <div className={cx("MenuItemIcon")}>{icon}</div>}
       <div className="flex flex-1 justify-between items-center">
-        <span className="flex text-menu">{children}</span>
+        <span className="flex text-menu whitespace-nowrap">{children}</span>
         {rightIcon && <div className={cx("MenuItemIcon")}>{rightIcon}</div>}
       </div>
       {activeNav === href && (

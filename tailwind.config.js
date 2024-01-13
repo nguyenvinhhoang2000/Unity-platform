@@ -76,6 +76,9 @@ module.exports = {
       dark: {
         main: "#1F2128",
       },
+      success: {
+        main: "#7FBA7A",
+      },
     },
     fontSize: {
       "display-1": [
