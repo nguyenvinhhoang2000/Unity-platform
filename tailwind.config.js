@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: "class",
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -70,6 +71,10 @@ module.exports = {
         "o-20": "rgba(255, 255, 255, 0.2)",
         "o-10": "rgba(255, 255, 255, 0.1)",
         "o-5": "rgba(255, 255, 255, 0.05)",
+      },
+      grey: "#e4e4e4",
+      dark: {
+        main: "#1F2128",
       },
     },
     fontSize: {
@@ -186,7 +191,7 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       boxShadow: {
-        navigation: "0px 0px 63.436px 0px rgba(0, 0, 0, 0.07)",
+        navigation: "-1px 0px 0px 0px #E4E4E4 inset",
       },
     },
   },

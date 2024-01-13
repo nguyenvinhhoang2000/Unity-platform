@@ -17,6 +17,7 @@
     "framer-motion": "^10.17.9",
     "gsap": "^3.12.4",
     "locomotive-scroll": "^4.1.4",
+    "lodash": "^4.17.21",
     "next": "14.0.4",
     "postcss": "^8.4.33",
     "react": "^18",
