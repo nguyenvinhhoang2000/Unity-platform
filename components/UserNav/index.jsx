@@ -38,7 +38,7 @@ function UserNav({ userInfo = INIT_VALUES.OBJECT }) {
   return (
     <Link
       href={LOCATIONS.CHANNEL}
-      className="flex items-center gap-4 py-4 text-neutral-deactive"
+      className="flex justify-center items-center gap-4 py-4 text-neutral-deactive"
     >
       <Image
         src={userInfo.image}
@@ -47,7 +47,7 @@ function UserNav({ userInfo = INIT_VALUES.OBJECT }) {
         alt={`${userInfo.name} avatar`}
         className="w-[24px] h-[24px] aspect-square object-cover rounded-full"
       />
-      <div className="flex flex-1 gap-2 justify-between items-center">
+      <div className="hidden lg:flex flex-1 gap-2 justify-between items-center">
         <span className="flex flex-1 w-[104px] text-menu hover:text-primary-main transition-colors truncate">
           {userInfo.name}
         </span>

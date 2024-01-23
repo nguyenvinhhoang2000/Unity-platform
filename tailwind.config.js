@@ -72,7 +72,10 @@ module.exports = {
         "o-10": "rgba(255, 255, 255, 0.1)",
         "o-5": "rgba(255, 255, 255, 0.05)",
       },
-      grey: "#e4e4e4",
+      grey: {
+        main: "#e4e4e4",
+        "o-10": "rgba(228, 228, 228, 0.1)",
+      },
       dark: {
         main: "#1F2128",
       },
@@ -195,6 +198,7 @@ module.exports = {
       },
       boxShadow: {
         navigation: "-1px 0px 0px 0px #E4E4E4 inset",
+        "navigation-dark": "-1px 0px 0px 0px #E4E4E41a inset",
       },
     },
   },

@@ -1,5 +1,5 @@
 .MenuItem {
-  @apply flex items-center gap-4 py-4 text-neutral-deactive transition-colors relative;
+  @apply flex justify-center items-center gap-4 py-4 text-neutral-deactive transition-colors relative;
 
   &Icon {
     @apply flex justify-center items-center w-6 h-6;
@@ -12,7 +12,7 @@
   }
 
   &Background {
-    @apply absolute -left-5 w-[calc(100%+40px)] h-full bg-primary-main rounded-xl -z-[1];
+    @apply absolute left-0 lg:-left-5 w-full lg:w-[calc(100%+40px)] h-full bg-primary-main rounded-xl -z-[1];
   }
 }
 

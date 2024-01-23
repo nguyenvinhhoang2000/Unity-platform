@@ -37,3 +37,39 @@
     transform: translate(-50%) rotate(-45deg);
   }
 }
+
+.DarkMode {
+  @apply w-5 h-5 rounded-full bg-white-main relative;
+
+  &::before {
+    @apply w-3 h-3 rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[1] bg-secondary-shades-1;
+
+    content: " ";
+  }
+
+  &Wrapper {
+    @apply flex justify-start w-16 h-6 rounded-2xl bg-neutral-neutral p-[2px] transition-all duration-300;
+  }
+
+  &Active {
+    @apply justify-end;
+  }
+}
+
+.IconSun {
+  & > * {
+    @apply fill-success-main;
+  }
+}
+
+.IconMoon {
+  & > * {
+    @apply fill-secondary-shades-1;
+  }
+}
+
+.IconDownload {
+  & > * {
+    @apply fill-neutral-deactive;
+  }
+}
